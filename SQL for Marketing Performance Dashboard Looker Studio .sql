@@ -1,4 +1,4 @@
--- Step 1: Create a temporary table for Facebook Ads data
+-- Step 1: CTE for JOIN Table Facebook_ads
 WITH data_from_facebook AS (
     SELECT
         fabd.ad_date,           
@@ -22,7 +22,7 @@ WITH data_from_facebook AS (
         fa.adset_id = fabd.adset_id                
 ),
 
--- Step 2: Create a temporary table for Google Ads data
+-- Step 2: Create a temporary table for Google Ads
 Google_data AS (
     SELECT 
         ad_date,              
