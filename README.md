@@ -6,9 +6,11 @@ For one of my portfolio projects, I used Google Looker Studio to build a marketi
 
 Connecting the Data: I created a new report in Google Looker Studio and connected it to a PostgreSQL database. 
 
+I used a custom SQL query from a previous project to pull the relevant marketing data.
+
 [View my SQL code for this project](https://github.com/shvetsihorr/Business-Intelligence-BI-Portfolio/blob/cd166593dff54ff86123affdcb5508dc09d9b900/SQL%20Code%20for%20Looker%20Studio%20.sql)
 
-I used a custom SQL query from a previous project to pull the relevant marketing data.
+[View project go to Google Looker Studio](https://lookerstudio.google.com/reporting/fd02cf72-7177-4518-950c-68f38af18061)
 
 Creating Custom Fields: I added several custom metrics to the report.
 
@@ -17,8 +19,5 @@ Creating Custom Fields: I added several custom metrics to the report.
 - A table with heat maps, where the campaign name was the dimension, and the metrics included Ad Spend, CPC, CPM, CTR, and ROMI.
 - Filters: I added filters for campaign names and ad display dates to make the dashboard interactive and user-friendly.
   
-
-[View project go to Google Looker Studio](https://lookerstudio.google.com/reporting/fd02cf72-7177-4518-950c-68f38af18061)
-
 <img width="1194" alt="Marketing Performance Dashboard" src="https://github.com/user-attachments/assets/12493f42-d320-4868-b209-900788ec8492">
 
