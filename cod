@@ -1,0 +1,60 @@
+-- Step 1: Create a temporary table for Facebook Ads data
+WITH data_from_facebook AS (
+    SELECT
+        fabd.ad_date,            -- Date of the ad
+        fc.campaign_name,        -- Campaign name from the campaign table
+        fa.adset_name,           -- Adset name from the adset table
+        fabd.spend,              -- Total ad spend
+        fabd.impressions,        -- Number of ad impressions
+        fabd.reach,              -- Number of unique users reached
+        fabd.clicks,             -- Number of clicks on the ad
+        fabd.leads,              -- Number of leads generated
+        fabd.value               -- Value generated from the ad
+    FROM 
+        facebook_ads_basic_daily AS fabd          -- Facebook ads daily data table
+    JOIN 
+        facebook_campaign AS fc                    -- Join to get campaign name
+    ON 
+        fc.campaign_id = fabd.campaign_id          -- Match campaign ID
+    JOIN 
+        facebook_adset AS fa                       -- Join to get adset name
+    ON 
+        fa.adset_id = fabd.adset_id                -- Match adset ID
+),
+
+-- Step 2: Create a temporary table for Google Ads data
+Google_data AS (
+    SELECT 
+        ad_date,              -- Date of the ad
+        campaign_name,        -- Campaign name
+        adset_name,           -- Adset name
+        spend,                -- Total ad spend
+        impressions,          -- Number of ad impressions
+        reach,                -- Number of unique users reached
+        clicks,               -- Number of clicks on the ad
+        leads,                -- Number of leads generated
+        value                 -- Value generated from the ad
+    FROM 
+        google_ads_basic_daily AS google            -- Google ads daily data table
+),
+
+-- Step 3: Combine data from Facebook and Google into a union table
+union_table AS (
+    SELECT 
+        *,                   -- Select all columns from Facebook data
+        'Facebook' AS media_source  -- Add a new column to identify the media source
+    FROM 
+        data_from_facebook
+    UNION ALL 
+    SELECT 
+        *,                   -- Select all columns from Google data
+        'Google' AS media_source    -- Add a new column to identify the media source
+    FROM 
+        Google_data
+)
+
+-- Step 4: Final output of the unioned data from both platforms
+SELECT 
+    *                        -- Select all columns from the unioned table
+FROM 
+    union_table;
