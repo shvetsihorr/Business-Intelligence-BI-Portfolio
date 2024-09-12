@@ -6,6 +6,8 @@ For one of my portfolio projects, I used Google Looker Studio to build a marketi
 
 Connecting the Data: I created a new report in Google Looker Studio and connected it to a PostgreSQL database. 
 
+[View my SQL code for this project](https://github.com/shvetsihorr/Business-Intelligence-BI-Portfolio/blob/cd166593dff54ff86123affdcb5508dc09d9b900/SQL%20Code%20for%20Looker%20Studio%20.sql)
+
 I used a custom SQL query from a previous project to pull the relevant marketing data.
 
 Creating Custom Fields: I added several custom metrics to the report.
