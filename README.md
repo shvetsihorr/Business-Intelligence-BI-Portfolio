@@ -1,6 +1,11 @@
 # Data Analyst Portfolio - Business Intelligence (BI) 
 
-Welcome to my portfolio, where I highlight my skills as a Data Analyst specializing in Business Intelligence (BI). My work involves leveraging SQL, Google BigQuery, and advanced visualization tools to turn data into actionable insights. Explore my projects to see how I transform complex datasets into clear, strategic reports that drive business decisions and performance improvements.
+Welcome to my portfolio, where I highlight my skills as a Data Analyst specializing in Business Intelligence (BI). My work involves leveraging SQL, Google BigQuery, and advanced visualization tools like: 
+- Tableau,
+- PowerBI,
+- Looker Studio
+
+To turn data into actionable insights. Explore my projects to see how I transform complex datasets into clear, strategic reports that drive business decisions and performance improvements.
 
 ## Project 1: Marketing Performance Dashboard in Looker Studio
 
