@@ -9,7 +9,15 @@ To turn data into actionable insights. Explore my projects to see how I transfor
 
 Feel free to connect with me via: LinkedIn https://www.linkedin.com/in/ihorshvets/, email: shvets.ihor@outlook.com
 
-## Project 1: Marketing Performance Dashboard in Looker Studio
+## Project 1: Sales Dashboard (US) – Tableau Project
+Interactive Tableau dashboard analyzing year-over-year sales, trends, and product subcategories for US-based data. Features key metrics (sales, profits, quantity) with dynamic filters for real-time exploration. 
+
+[View Project on Tableau Public](https://public.tableau.com/app/profile/ihor.shvets/viz/Book1_17267715725490/SalesDashboard)
+
+<img width="1375" alt="Sales Dashboard (US)" src="https://github.com/user-attachments/assets/1343d2ee-ec8d-4279-9c5e-b87586a299ae">
+
+
+## Project 2: Marketing Performance Dashboard in Looker Studio
 
 For one of my portfolio projects, I used Google Looker Studio to build a marketing dashboard. Here's a quick summary of the process I followed:
 
