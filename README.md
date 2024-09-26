@@ -14,7 +14,7 @@ Interactive Tableau dashboard analyzing year-over-year sales, trends, and produc
 
 [View Project on Tableau Public](https://public.tableau.com/app/profile/ihor.shvets/viz/Book1_17267715725490/SalesDashboard)
 
-<img width="1375" alt="Sales Dashboard (US)" src="https://github.com/user-attachments/assets/1343d2ee-ec8d-4279-9c5e-b87586a299ae">
+![Sales Dashboard (1)](https://github.com/user-attachments/assets/16049233-6ffc-4606-b67e-3fa79e57392d)
 
 
 ## Project 2: Marketing Performance Dashboard in Looker Studio
