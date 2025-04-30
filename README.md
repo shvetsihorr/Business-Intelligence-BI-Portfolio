@@ -17,6 +17,7 @@ Interactive Tableau dashboard analyzing year-over-year sales, trends, and produc
 ![Sales Dashboard (1)](https://github.com/user-attachments/assets/16049233-6ffc-4606-b67e-3fa79e57392d)
 
 
+
 ## Project 2: Marketing Performance Dashboard in Looker Studio
 
 For one of my portfolio projects, I used Google Looker Studio to build a marketing dashboard. Here's a quick summary of the process I followed:
