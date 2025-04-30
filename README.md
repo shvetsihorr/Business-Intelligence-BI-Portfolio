@@ -7,6 +7,8 @@ Welcome to my portfolio, where I highlight my skills as a Data Analyst specializ
 
 To turn data into actionable insights. Explore my projects to see how I transform complex datasets into clear, strategic reports that drive business decisions and performance improvements.
 
+## Tablau: [View Projects on Tableau Public](https://public.tableau.com/app/profile/ihor.shvets/vizzes)
+
 Feel free to connect with me via: LinkedIn https://www.linkedin.com/in/ihorshvets/, email: shvets.ihor@outlook.com
 
 ## Project 1: Sales Dashboard (US) – Tableau Project
